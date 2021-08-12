@@ -1,0 +1,121 @@
+<html>
+<head>
+  <title>CoronaVirus</title>
+  <meta charset="utf-8">
+  <!-- Bootstrap -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+  body {
+    font: 20px Montserrat, sans-serif;
+    line-height: 1.8;
+    color: #f5f6f7;
+  }
+  p {font-size: 16px;}
+  .margin {margin-bottom: 45px;}
+  .bg-1 { 
+    background-color: #B51612; /* vermelho */
+    color: #ffffff;
+  }
+  .bg-2 { 
+    background-color: #474e5d; /* azul escuro */
+    color: #ffffff;
+  }
+  .bg-3 { 
+    background-color: #ffffff; /* branco */
+    color: #555555;
+  }
+  .bg-4 { 
+    background-color: #2f2f2f; /* cinza */
+    color: #fff;
+  }
+  .container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+  .navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+  }
+  .navbar-nav  li a:hover {
+    color: #1abc9c !important;
+
+  }
+  
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <!-- site com informações do covid -->
+      <a class="navbar-brand" href="https://www.gov.br/saude/pt-br?utm_source=google&utm_medium=search&utm_campaign=MS_Vacinacao_Covid&utm_term=vacinacao_coronavirus_googleads&utm_content=gads001" target="-blank">CoronaVírus</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <!-- site coronavirus no mundo -->
+        <li><a href="https://especiais.gazetadopovo.com.br/coronavirus/casos-no-mundo/" target="-blank">NO MUNDO</a></li>
+        <!-- site coronavirus no Brasil -->
+        <li><a href="https://covid.saude.gov.br/" target="-blank">NO BRASIL</a></li>
+      
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- primeiro Container / Covid -->
+<div class="container-fluid bg-1 text-center">
+  <h3 class="margin">CoronaVírus</h3>
+  <img src="coronavirus.png" class="img-responsive img-circle margin" style="display:inline" alt="coronavirus" width="350" height="350">
+  <h3>O mal ivisível</h3>
+</div>
+
+<!-- segundo Container / o que é Covid  -->
+<div class="container-fluid bg-2 text-center">
+  <h3 class="margin">O que é?</h3>
+  <p>É um vírus que causa uma doença respiratória —a covid-19— pelo agente coronavírus, identificado em dezembro de 2019 na China. Os coronavírus são uma grande família viral, conhecidos desde meados de 1960, que causam infecções respiratórias em seres humanos e em animais. Geralmente, infecções por coronavírus causam doenças respiratórias leves a moderadas, semelhantes a um resfriado comum. Alguns coronavírus podem causar doenças graves com impacto importante em termos de saúde pública, como a Sars (Síndrome Respiratória Aguda Grave), identificada em 2002 e a Mers (Síndrome Respiratória do Oriente Médio), identificada em 2012. </p>
+  <a href="https://www.tuasaude.com/coronavirus/" target="-blank" class="btn btn-default btn-lg">
+    <span class="glyphicon glyphicon-search"></span> Sintomas
+  </a>
+</div>
+
+<!-- terceiro Container / prevenções do covid -->
+<div class="container-fluid bg-3 text-center">    
+  <h3 class="margin">Como previnir?</h3><br>
+  <div class="row">
+    <div class="col-sm-4">
+      <p>Lave suas mãos com frequência. Use sabão e água ou álcool em gel.</p>
+      <img src="lavarasmaos2.png" class="img-responsive margin" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-4"> 
+      <p>Evite tocar nos olhos, no nariz e na boca.</p>
+      <img src="naotocar.png" class="img-responsive margin" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-4"> 
+      <p>Use máscara quando não for possível manter o distanciamento físico.</p>
+      <img src="mascara.png" class="img-responsive margin" style="width:100%" alt="Image">
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="container-fluid bg-4 text-center">
+</footer>
+
+</body>
+</html>
